@@ -1,0 +1,4 @@
+,n_neighbors,weights,algorithm,leaf_size
+gapen_all,4.158639217422881,distance,kd_tree,48.28144202947964
+descri,3.38968614597337,distance,kd_tree,28.838823722483582
+gapen_all+descri,3.287530615370513,distance,kd_tree,39.889539344510865
