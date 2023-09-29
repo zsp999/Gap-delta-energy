@@ -1,0 +1,3 @@
+,n_estimators,eta,max_depth,min_child_weight,gamma,subsample,colsample_bytree,reg_lambda,alpha
+gapen_all,288.0,0.1246168673010711,9.90819880333491,1,0,0.5,0.8,1.5,0.8
+descri,448.0,0.10514998146693737,4.404851371019564,1,0,0.8,0.9,1.5,0.8
