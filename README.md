@@ -2,6 +2,12 @@
 Gap-Δenergy, a new metric of the bond energy state, assisting to predict molecular toxicity
 
 
+Python Version: 3.9.13
+
+
+Dependencies: Versions of required packages are listed in requirements.txt.
+
+
 ### Preprocessing Data
 The preprocess_data directory contains scripts for preprocessing data.
 
