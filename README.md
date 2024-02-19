@@ -1,8 +1,3 @@
-# Gap-delta-energy
-Gap-Δenergy, a new metric of the bond energy state, assisting to predict molecular toxicity
-
-<<<<<<< HEAD
-
 # Gap-Δenergy
 Gap-Δenergy, a new metric of the bond energy state, assisting to predict molecular toxicity
 
@@ -60,8 +55,3 @@ classifiers_finalstacking_using_proba_LR.ipynb: Utilizes the probabilities obtai
 ### Apply
 
 apply.ipynb: Input the molecules you want to calculate into the your_smis list, run the notebook, and you will obtain the toxicity probabilities predicted by the final XGB classifier and LR classifier.
-=======
-在cal-delta-energey这一部分，是对三类分子进行gap-delta-energy的计算，cal_gapenergy_metabolite_drugllike是计算代谢性小分子，类药性小分子和毒性小分子，cal_gapenergy_tox_exo计算的是毒性小分子和外源性小分子。
-
->>>>>>> 39cf9dbc10bab37793ef9829235bf4ff270de2af
-
