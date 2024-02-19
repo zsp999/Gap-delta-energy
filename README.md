@@ -1,27 +1,24 @@
-# Gap-delta-energy
-Gap-Δenergy, a new metric of the bond energy state, assisting to predict molecular toxicity
-
-<<<<<<< HEAD
-
 # Gap-Δenergy
 Gap-Δenergy, a new metric of the bond energy state, assisting to predict molecular toxicity
-
-
-First, the preprocess_data folder is where the data is preprocessed. Need to download from the https://hmdb.ca/downloads hmdb_metabolites.xml into the/data folder. Downloaded from https://go.drugbank.com/releases/latest#biotech-sequences SDF format Approved, Experimental, Nutraceutical, Illicit, Withdrawn and Investigational molecules. Downloaded from http://www.t3db.ca/downloads SDF format of toxic molecules. We also provide these documents at https://github.com/zsp999/Gap-Δ-energy/tree/main/data.
-
-
-process_metabolite_druglike_tox.ipynb preprocesses the above xml or sdf file to obtain a csv file containing small molecule SMILES and class information.
 
 
 ### Preprocessing Data
 The preprocess_data directory contains scripts for preprocessing data.
 
+
 Downloading Required Files:
 
+
 You need to download hmdb_metabolites.xml from [HMDB website](https://hmdb.ca/downloads) and place it in the /data directory.
+
+
 Download SDF formatted files for Approved, Experimental, Nutraceutical, Illicit, Withdrawn, and Investigational molecules from [DrugBank](https://go.drugbank.com/releases/latest#biotech-sequences).
+
+
 Download SDF formatted files for toxic molecules from [T3DB](http://www.t3db.ca/downloads).
-Alternatively, you can find these files provided in [this repository](https://github.com/zsp999/Gap-Δ-energy/tree/main/data) except hmdb_metabolites.xml.
+
+
+Alternatively, you can find these files provided in [this repository](https://github.com/zsp999/Gap-delta-energy/tree/main/data) except hmdb_metabolites.xml.
 
 
 The process_metabolite_druglike_tox.ipynb notebook preprocesses the XML or SDF files mentioned above to obtain CSV files containing small molecule SMILES and category information.
